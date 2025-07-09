@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -32,6 +36,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  @apply bg-neutral text-darkText font-sans;
 }
 
 h1 {
